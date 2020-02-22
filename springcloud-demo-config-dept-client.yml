@@ -23,7 +23,7 @@ spring:
 eureka:
     client:
         service-url:
-        defaultZone: http://eureka-7001:7001/eureka
+            defaultZone: http://eureka-7001:7001/eureka
     instance:
         instance-id: springcloud-demo-config-dept-client
         prefer-ip-address: true
@@ -52,7 +52,7 @@ spring:
 eureka:
     client:
         service-url:
-        defaultZone: http://eureka-7001:7001/eureka
+            defaultZone: http://eureka-7001:7001/eureka
     instance:
         instance-id: springcloud-demo-config-dept-client
         prefer-ip-address: true
